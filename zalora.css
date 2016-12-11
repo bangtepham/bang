@@ -1,0 +1,378 @@
+*{margin:0px;padding:0px;}
+#wrapper{width:100%;}
+body{font-family:Arial, san-serif; }
+a{text-decoration: none;}
+
+#header{    background: none;
+            height: 130px;
+            margin-top: 0px;}
+#header1_1{ height: 80px;
+    background: black;}
+.content_menu form select{margin-left: -100px;border: none;}
+#header1_1 ul
+{
+    list-style: none;
+    text-align: center;
+   
+}
+#header1_1 ul li
+{
+    float: left;
+    position: relative;
+    line-height: 20px;
+    padding-top: 30px;
+    margin-left: 20px;
+    padding-right: 5px;
+    
+}
+#header1_1 ul li a
+{
+    color:#fff
+  
+}
+#header1_1 ul li a span
+{
+    font-size:200%;
+    margin-left: 177px;
+}
+#header1_1 ul li a:hover
+{
+  text-decoration: underline;
+}
+#header1_1 li h1
+{
+    margin-top: 25px;
+}
+#header1_1 ul li a
+{
+    
+}
+#header1_1 ul li form input
+{
+    width: 400px;
+    height:25px;
+}
+#header1_1>ul>li ul
+{
+    background-color: red;
+    margin-top: 4px;
+    width: 164px;
+    position: absolute;
+    display:none;
+    
+}
+#header1_1>ul>li ul li a
+{
+    color:black;
+    margin-right: auto;
+}
+ #header1_1>ul>li ul li
+{
+    margin-left: 0px;
+    background-color:  #fff;
+    width: 165px;
+    height: 20px;
+}
+
+#header1_1>ul>li ul li:first-child
+{
+     width: 165px;
+     height: 20px;
+     color:#fff;
+}
+#header1_1 ul li ul
+{
+    background: #000;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 177px;
+    width: 996px;
+    height: 245px;
+    display: none;
+    z-index: 100;
+}
+#header1_1 ul li ul.menu1 li
+{
+    padding-top: 0px;
+    padding-right: 8px;
+    width: 324px;
+    height: 239px;
+}
+.menu1 li{background: #fff;}
+.menu1_2,.menu2_2,.menu3_2
+{
+    width: 136.88px;
+    height: 52px;
+    margin: auto;
+}
+.menu1_3,.menu2_3,.menu3_3
+{
+    font-size: 75%;
+    color: #000;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+#header1_1 ul li:active ul
+{
+    display: block;
+}
+   /*Header part 2*/
+#header1_2{background:#dfdfdf;height:50px; }
+#header1_2 ul{list-style:none;font-size: 75%;color: #000;}
+#header1_2 >ul.header1_2> li
+{
+    float: left;
+    position: relative;
+    padding-right: 15px;
+    height: 30px;
+    padding-top: 20px;
+    
+}
+#header1_2 ul.header1_2 li a
+{
+    color:#000;
+}
+#header1_2 ul.header1_2 li a:hover
+{text-decoration:underline;}
+#header1_2 ul.header1_2 li.newin
+{
+    margin-left: 200px;
+}
+#header1_2 >ul.header1_2 >li:hover
+{
+    border-bottom: 3px solid #000; 
+}
+/* -------------CLOTHING------------------ */
+.clothing1 ul
+{
+    position: absolute;
+    padding-top: 16px;
+    width: 996px;
+    height: 418px;
+    margin-left: -4em;
+    display:none;
+    margin-top: 17px;
+    
+   
+}
+#header1_2>ul>li:hover ul
+{
+    display:block;
+}
+
+.clothing1_1,.clothing1_2,.clothing1_3
+{
+    width: 331.98px;
+    height: 418px;
+    float:left;
+}
+ul.menu_clothing1,ul.menu_clothing2,ul.menu_clothing3
+{
+    width: 291.98px;
+    height:343px;
+    margin: 0px 20px;
+    
+}
+.menu_clothing1 li span,.menu_clothing2 li span
+{
+    margin-left: 0px;
+    height: 19px;
+    width: 291.97px;
+    font-size: 200%;
+    border-bottom: 1px solid gray;
+}
+ul.menu_clothing1_2,.ul.menu_clothing1_3
+{
+    width: 291.97px;
+    margin:0px 20px;
+   
+}
+ul.menu_clothing1_2 li
+{
+    font-size: 170%;
+    line-height: 4;
+    margin-left: -20px;
+}
+ul.menu_clothing1_3 li
+{
+    font-size: 170%;
+    line-height: 4;
+    margin-left: 25px;
+}
+div.clothing1_3 p
+{
+    text-align: center;
+    font-size: 150%;
+    margin-top: 20px;
+}
+div.clothing1_3 span
+{
+     text-align: center;
+     font-size:200%;
+}
+ul.clothing{z-index:89;background: #fff;}
+/*--------------SHOES-------------*/
+  ul.shoes
+  {
+      z-index:89;background: #fff;
+      margin-left:-12em;
+  }
+/*-------------ACCESSORIES--------*/
+  ul.accessories
+  {
+    z-index:89;background: #fff;
+    margin-left: -18em;
+  }
+/*-------------BAGS--------*/
+ul.bags
+{
+        z-index:89;background: #fff;
+        margin-left: -30em;
+}
+/*-------------SPORTS--------*/
+ul.sports
+{
+        z-index:89;background: #fff;
+        margin-left: -35em;
+}
+/*-------------WATCHES--------*/
+ul.watches
+{
+    z-index:89;background: #fff;
+    margin-left: -42em;
+}
+ul.grooming
+{
+    z-index:89;background: #fff;
+    margin-left: -52em;
+}
+ul.brands
+{
+    z-index:89;background: #fff;
+    margin-left:-60em;
+}
+/*--------Header content-----*/
+#header_content{height: 86px;width: 100%;}
+.header_content1{height: 50px;width: 994px;margin:auto;}
+.header_content2{height: 36px;width: 996px;margin: auto;background: #d23402;}
+.header_content2:hover{background: #b9411b;}
+.header_content2 p{margin-left: 280px;}
+.header_content2 p a{color:#fff;font-size:75%;}
+.header_content1 ul{list-style: none;font-size: 70%;}
+.header_content1 ul li{float:left;padding: 20px 10px;}
+.border{height: 20px; width: 231px;border-radius: 5px;background: #5C5C5C;margin-left: 270px;margin-top: -10px;padding-top:10px;padding-left: 42px; }
+.border span a{color: #fff;}
+.border img{margin-top: -10px;margin-left: 15px;}
+.border:hover{background:#7c7c7c;}
+.header_main
+{
+    margin-left: 177px;
+    margin-top: 30px;
+}
+.just_arrived p
+{
+    margin-top: 40px;
+    font-size: 200%;
+    text-align: center;
+    font-weight: 700;
+}
+.just_arrived img
+{   padding-right: 10px;
+    margin-top: 30px;
+}
+.header_main img:hover{opacity: 0.8;}
+.img1{margin-left: 177px;}
+.img1 a:hover,.img2 a:hover{opacity:0.7;}
+.img2{margin-left: 550px;margin-top: -450px;}
+.shop_by_category
+{   height: 37px;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 700;
+}
+.item{width: 996px;height: 532px;margin-left: 177px;margin-top: 20px;}
+.item1{width: 296px;height:532px;}
+.item1 span a{font-size: 50%;color:black;}
+.item2{width:374px;height:532px;}
+.item3{width: 296px;height: 532px;margin-left: 354px;margin-top: -532px;}
+.item1_2 img,.item3_2 img{margin-top:60px;}
+.item1 a:hover{text-decoration: underline;}
+.item2 span a{font-size: 50%;color:black;}
+.item1_1:hover{opacity:0.7;}
+.item1_2:hover{opacity:0.7;}
+.item3_1:hover{opacity:0.7;}
+.item3_2:hover{opacity:0.7;}
+.item2{margin-top: -532px;margin-left:320px;}
+.item2:hover{opacity:0.7;}
+.item2 span a:hover{text-decoration: underline;}
+.item3 span a:hover{text-decoration: underline;}
+.item3 span a{font-size: 50%;color:black;}
+.discover_our_brands{margin-top: 100px;}
+.brand{width: 996px;height:332px;margin-left:177px;margin-top:20px;}
+.brand1,.brand2{width: 996px;height:165px;}
+.brand2{margin-top: 15px;}
+.br1_1,.br2_1{width:332px;}
+.br1_2,.br2_2{margin-top: -173px;}
+.br1_3,.br2_3{margin-left:665px;margin-top: -173px;}
+.brand img:hover{opacity: 0.7;}
+.explore p{font-size: 40%;text-align: center;margin-top: 10px;font-weight: 200;}
+.explore{margin-top: 60px;}
+.explore1
+{
+    width: 250px;
+    height: 30px;
+    margin: auto;
+    border: 1px solid black;
+}
+.explore a{color:black;text-decoration: underline;}
+.explore a:hover{text-decoration:none;}
+.top_pick p{margin-top: 100px;}
+.top_pick1{width: 996px; margin-left: 177px;height: 620px;margin-top: 30px;}
+.top_pick1_1{width:620px;}
+.top_pick1_2{    width: 420px;margin-left: 605px;margin-top: -428px;}
+.top_pick2
+{   height: 420px;
+    width: 996px;
+    margin-left: 177px;
+    margin-top: -180px;
+}
+.top_pick2_1{width: 360px;}
+.top_pick2_2
+{   width: 620px;
+    height: 420px;
+    margin-left: 375px;
+    margin-top: -428px;
+}
+.top_pick a:hover{opacity:0.7;}
+.end1
+{
+    width: 996px;
+    height: 102px;
+    margin-top: 100px;
+    margin-left: 177px;
+}
+.end1 p
+{
+    width: 460px;
+    margin: auto;
+}
+.end2{width: 480px;height: 553px;margin-top: 80px;margin-left: 177px;}
+.end3{width: 480px;height: 548px;}
+.end2 h6,.end3 h6
+{
+    font-size: 16px;
+    margin-top: 36px;
+    margin-bottom: 20px;
+}
+.end2 p,.end3 p
+{
+    font-family: arial;
+    font-size: 11px;
+    line-height: 1.6;
+    text-align: justify;
+    font-weight: normal;
+}
+.end3 {margin: -588px 0px 0px 700px;}
+.p1{margin-top: -15px;}
