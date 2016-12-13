@@ -1,3 +1,12 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 3, 2016, 4:16:26 PM
+    Author     : Bang
+*/
 *{margin:0px;padding:0px;}
 #wrapper{width:100%;}
 body{font-family:Arial, san-serif; }
@@ -5,7 +14,12 @@ a{text-decoration: none;}
 
 #header{    background: none;
             height: 130px;
-            margin-top: 0px;}
+            margin-top: 0px;
+            position: fixed;
+            width: 100%;
+            z-index: 100;
+        }
+#content{padding-top: 130px;}
 #header1_1{ height: 80px;
     background: black;}
 .content_menu form select{margin-left: -100px;border: none;}
@@ -87,8 +101,7 @@ a{text-decoration: none;}
     margin-top: 40px;
     margin-left: 177px;
     width: 996px;
-    height: 245px;
-    display: none;
+    height: 245px; 
     z-index: 100;
 }
 #header1_1 ul li ul.menu1 li
@@ -113,7 +126,7 @@ a{text-decoration: none;}
     padding-bottom: 20px;
     padding-right: 20px;
 }
-#header1_1 ul li:active ul
+#header1_1 ul li:hover>ul
 {
     display: block;
 }
@@ -144,12 +157,13 @@ a{text-decoration: none;}
     border-bottom: 3px solid #000; 
 }
 /* -------------CLOTHING------------------ */
+
 .clothing1 ul
 {
     position: absolute;
     padding-top: 16px;
     width: 996px;
-    height: 418px;
+    height: 450px;
     margin-left: -4em;
     display:none;
     margin-top: 17px;
@@ -166,6 +180,7 @@ a{text-decoration: none;}
     width: 331.98px;
     height: 418px;
     float:left;
+   
 }
 ul.menu_clothing1,ul.menu_clothing2,ul.menu_clothing3
 {
@@ -182,12 +197,16 @@ ul.menu_clothing1,ul.menu_clothing2,ul.menu_clothing3
     font-size: 200%;
     border-bottom: 1px solid gray;
 }
-ul.menu_clothing1_2,.ul.menu_clothing1_3
+ul.menu_clothing1_2
 {
     width: 291.97px;
     margin:0px 20px;
    
 }
+ul.menu_clothing1_3{ 
+    width: 291.97px;
+    margin-top: 0px;
+    }
 ul.menu_clothing1_2 li
 {
     font-size: 170%;
@@ -376,3 +395,144 @@ ul.brands
 }
 .end3 {margin: -588px 0px 0px 700px;}
 .p1{margin-top: -15px;}
+/*-------Part end------*/
+#love1
+{
+    width: 100%;
+    height: 300px;
+    
+}
+.love1
+{
+    border-top:1px solid gray;
+    margin:auto;
+    width: 996px;
+    font-size: 40%;
+}
+.fa1,.fa2,.fa3,.fa4
+{
+    width: 150px;
+    margin-top: 15px;
+    float: left;
+}
+.love1 span{border-bottom:1px solid gray;}
+.fa1 ul,.fa2 ul,.fa3 ul
+{
+ list-style: none;
+ line-height: 1.5;
+ font-weight: normal;
+ margin-top: 5px;
+ text-align: justify;
+ line-height: 1.5;
+ margin-bottom: 15px;
+}
+.love1 a{color:black;}
+.love1 ul{list-style: none;}
+.love1 a:hover{text-decoration: underline;color:black;}
+.logo p{text-align: justify;border-bottom:1px solid gray;margin-bottom:15px;}
+.fa2,.fa3{padding-left:20px;}
+.fa3 ul{margin-left: 40px;}
+.fa2 ul{margin-left:25px;}
+.fa4_1 ul li{float:left;padding-right: 10px;}
+.fa4_1{margin: 30px;}
+.fa5
+{   width: 300px;
+    margin-left: 700px;
+    border: 1px solid gray;
+    margin-top: 10px;
+    height: 250px;
+}
+.fa5_1
+{
+    height: 40px;
+    background: black;
+}
+.fa5_2{height: 210px;}
+.title{width: 120px;height: 100%;margin: auto;}
+.title p{color: #fff; padding-top: 10px;}
+.fa5_21{height: 50px;}
+.get
+{
+    width: 150px;
+    height: 100%;
+    margin: auto;
+}
+.get p{padding-top: 20px;}
+.when 
+{   
+    height: 40px;
+    font-weight: normal;
+}
+.fa5_23 input
+{
+    width: 250px;
+    height: 30px;
+    margin-left: 5px;
+}
+.button{
+    margin-top: 30px;
+    height: 30px;
+}
+.women
+{
+   
+    background: black;
+    height: 30px;
+    color: #fff;
+    border: 1px solid black;
+}
+.man
+{
+    margin-left: 70px;
+    width: 87px;
+    height: 30px;
+    border: 1px solid black;
+    background: black;
+    color: #fff;
+}
+.button button:hover{background: #fff;color:black;}
+.love2
+{
+    height: 200px;
+    margin-top: 100px;
+    
+}
+.address1
+{
+    width: 300px;
+    height: 100%;
+    float: left;
+    margin-top: 30px;
+}
+.address2
+{
+    width: 500px;
+    height: 100%;
+    float: left;
+    margin-top: -200px;
+    margin-left: 500px;
+}
+.footer
+{
+    border-top:1px solid gray;
+    width: 996px;height: 100%;
+    margin: auto;
+    font-size: 40%;
+    font-weight: normal;
+}
+.address1 p
+{text-align: justify;}
+.address2 ul
+{
+    list-style: none;
+}
+.address2 ul li
+{
+    float: left;
+    padding-right: 10px;
+        
+}
+.address2 ul li a{color:black;}
+.address2 ul li a:hover {text-decoration: underline;}
+.address2 p{margin-top: 30px;}
+
