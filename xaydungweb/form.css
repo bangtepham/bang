@@ -1,0 +1,18 @@
+*{
+  margin:0;
+  padding:0;
+}
+form{
+  width:50%;
+  margin:auto;
+  background: green;
+}
+form tr{
+  padding-top:30px;
+  border-radius:5px;
+  border:1px solid red;
+}
+p{
+  color: red;
+  float: right;
+}

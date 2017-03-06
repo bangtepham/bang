@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  background: #56ff56;
+  width: 100%;
+  text-align: center;
+  height: 100px;
+}
+.side_bar{
+  width: 200px;
+  background: #ffff56;
+  height: 700px;
+}
+.side_bar ul{
+  list-style: none;
+}
+.side_bar ul li{
+  height: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+.side_bar ul li a{
+  text-decoration: none;
+}
+.side_bar ul li a:hover{
+  text-decoration: underline;
+}
+
+.footer{
+  background: #007fff;
+  margin:auto;
+  height: 80px;
+}
+.content{
+  height: 700px;
+  margin-left: 220px;
+}
+.side_bar{
+  float: left;
+}

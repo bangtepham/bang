@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+  color: #FF0000;
+}
+form{
+  width: 60%;
+  margin: auto;
+  background: #58FAAC;
+  font-family: arial;
+  margin-top: 100px;
+}
+form table tr{
+  line-height: 4;
+  width: 100%;
+}
+table{
+  width: 100%;
+}
+form input[type="text"]{
+  width: 500px;
+  border: 1px solid #FFFF00;
+  border-radius: 5px;
+  height: 30px;
+}
+.submit{
+    width: 15%;
+    font-size: 120%;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
